@@ -99,3 +99,40 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Oscailte Theme Settings
+oscailte:
+    hire: # The "Available for Hire" widget
+        visible:
+            footer: false
+            sidebar: true
+        footer-cols: 6 # Number of columns available for the footer component, max 12
+        available: true # Whether or not you're available for hire
+        vibrant: false # Makes the widget much more noticeable
+        message: "Test"
+    social:
+        visible: true
+        title: # Defaults to "Follow me!" if not present
+        adn: # App.net
+        coinbase:
+        dribbble:
+        facebook:
+            user:
+            app_id: # For enabling Open Graph metadata
+        github:
+            user:
+            show_profile_link:
+        googleplus:
+        hackernews:
+        keybase:
+        linkedin:
+        pinterest:
+        reddit:
+        stackoverflow:
+        twitter:
+            user:
+            widget: # Shows the Recent Tweets widget in sidebar
+                is_shown:
+                show_profile_link:
+                widget_id:
+        youtube:
